@@ -16,4 +16,9 @@ let @a  = 'ddwujkdwi	:w'
 let @s  = ':s/%in%/g€kb/gwww@buhhhhhhhhhhhhhhhhhhhhh@wa%a.include?()0wwwdw%wwlp:w:w:wlllll'
 let @d = 'a.cinlcude?€kb€kb€kb€kb€kb€kb€kb€kb€kbinclude?()'
 let @h = 'ihash[''ea'']w:w' 
+let @x = '/cost0iki@€kb		@connector = "KYB_v1":w'
+let @c = '/cost0iki@€kb		@connector = "KYC_v1":w'
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
 
