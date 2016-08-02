@@ -21,4 +21,4 @@ let @c = '/cost0iki@€kb		@connector = "KYC_v1":w'
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-
+:color desert
