@@ -2,6 +2,7 @@
 :filetype plugin on
 :syntax on
 set tabstop=4
+set softtabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 nnoremap tt :tabedit<Space>
 set ruler
 let @q = 'i''ea''w:w'
