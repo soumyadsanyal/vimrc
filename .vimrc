@@ -1,7 +1,7 @@
 ":inoremap ff <Esc>
 :filetype plugin on
 :syntax on
-set tabstop=4
+set tabstop=2
 nnoremap tt :tabedit<Space>
 set ruler
 let @q = 'i''ea''w:w'
@@ -21,4 +21,6 @@ let @c = '/cost0iki@€kb		@connector = "KYC_v1":w'
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-
+if has("autocmd")
+  filetype indent on
+endif
