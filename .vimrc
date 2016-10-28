@@ -1,7 +1,8 @@
 ":inoremap ff <Esc>
 :filetype plugin on
 :syntax on
-set tabstop=2
+"set tabstop=2
+set tabstop=2 expandtab shiftwidth=2 smarttab
 nnoremap tt :tabedit<Space>
 set ruler
 let @q = 'i''ea''w:w'
@@ -24,3 +25,4 @@ filetype plugin indent on
 if has("autocmd")
   filetype indent on
 endif
+set tabpagemax=100
