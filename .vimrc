@@ -25,4 +25,4 @@ filetype plugin indent on
 if has("autocmd")
   filetype indent on
 endif
-set tabpagemax=100
+set tabpagemax=1000
