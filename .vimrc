@@ -26,3 +26,6 @@ if has("autocmd")
   filetype indent on
 endif
 set tabpagemax=1000
+set textwidth=73
+
+
