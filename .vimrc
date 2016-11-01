@@ -26,6 +26,8 @@ if has("autocmd")
   filetype indent on
 endif
 set tabpagemax=1000
-set textwidth=73
-
-
+set tw=80
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
+  autocmd BufEnter * match OverLength /\%74v.*/
+augroup END
